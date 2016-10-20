@@ -21,4 +21,8 @@
         Resultado = Numero1 + Numero2
         MessageBox.Show(Resultado)
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        MessageBox.Show("Commit en rama Master")
+    End Sub
 End Class
